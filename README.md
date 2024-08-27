@@ -1,35 +1,19 @@
-# vue-ChessProject
+# Vue-Chess
 
-This template should help get you started developing with Vue 3 in Vite.
+## Обзор
 
-## Recommended IDE Setup
+Это простая шахматная игра, созданная с использованием Vue.js 3 (Composition API) и Tailwind CSS. Игра позволяет игрокам перемещать шахматные фигуры по доске, имея базовую установку начальных позиций фигур. Этот проект идеален для тех, кто хочет узнать больше о Vue.js и Tailwind CSS через практический пример.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Особенности
 
-## Customize configuration
+- **Интерактивная шахматная доска:** Полностью интерактивная шахматная доска, где пользователи могут кликать и перемещать фигуры.
+- **Перемещение фигур:** Фигуры можно перемещать, кликнув на них и выбрав целевую клетку.
+- **Визуальные фигуры:** Шахматные фигуры представлены изображениями, что обеспечивает ясный и интуитивно понятный интерфейс.
+- **Очередность ходов:** Базовое переключение между ходами белых и черных.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Используемые технологии
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Vue.js 3:** Современный JavaScript-фреймворк для создания пользовательских интерфейсов.
+- **Composition API:** Последняя функция Vue для обработки логики компонентов.
+- **Tailwind CSS:** CSS-фреймворк с утилитарным подходом для стилизации приложения.
+- **JavaScript:** Основной язык для реализации логики игры.

@@ -10,7 +10,7 @@ const props = defineProps({
 });
 
 const pieceSrc = computed(() => {
-  const basePath = '/public/pieces/';
+  const basePath = '/pieces/';
   const pieceMap = {
     'P': `${basePath}Piece=Pawn, Side=White.png`,
     'N': `${basePath}Piece=King, Side=White.png`,
